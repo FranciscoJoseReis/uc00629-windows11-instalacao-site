@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Manual - Instalação Windows 11</title>
+
+  <style>
+    body {
+      font-family: Arial;
+      margin: 0;
+      background-color: #f4f6f8;
+    }
+
+    header {
+      background: #1f2a44;
+      color: white;
+      text-align: center;
+      padding: 30px;
+    }
+
+    nav {
+      background: #2c3e50;
+      text-align: center;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      margin: 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      background: white;
+      margin: 20px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+
+
+    video {
+      width: 50%;
+      margin-top: 10px;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Manual de Instalação Windows 11</h1>
+    <p>Máquina Virtual com VirtualBox</p>
+  </header>
+
+  <nav>
+    <a href="#fase1">Fase 1</a>
+    <a href="#fase2">Fase 2</a>
+    <a href="#fase3">Fase 3</a>
+    <a href="#fase4">Fase 4</a>
+  </nav>
+
+  <!-- FASE 1 -->
+  <section id="fase1">
+    <h2>Fase 1: Configuração da Máquina Virtual</h2>
+
+    <ul>
+      <li>Criação da VM com ISO do Windows 11</li>
+      <li>Configuração de RAM (mínimo 4GB) e CPU</li>
+      <li>Ativação de EFI e Secure Boot</li>
+      <li>Disco virtual (ex: 100GB)</li>
+    </ul>
+
+    <h3>Vídeos da configuração</h3>
+    <video controls>
+      <source src="Videos\Fase 1.mp4" type="video/mp4">
+    </video>
+  </section>
+
+  <!-- FASE 2 -->
+  <section id="fase2">
+    <h2>Fase 2: Instalação do Windows</h2>
+
+    <ul>
+      <li>Escolha de idioma e teclado</li>
+      <li>Aceitação dos termos de licença</li>
+      <li>Criação de partições</li>
+      <li>Instalação automática do sistema</li>
+    </ul>
+
+    <h3>Vídeo da instalação</h3>
+    <video controls>
+      <source src="Videos\Fase 2.mp4" type="video/mp4">
+    </video>
+  </section>
+
+  <!-- FASE 3 -->
+  <section id="fase3">
+    <h2>Fase 3: Configuração Pós-Instalação</h2>
+
+    <ul>
+      <li>Definição de região (Portugal)</li>
+      <li>Criação de utilizador</li>
+      <li>Configuração de privacidade</li>
+    </ul>
+
+    <h3>Vídeo de Configuração</h3>
+    <video controls>
+      <source src="Videos/Fase 3.mp4" type="video/mp4">
+    </video>
+  </section>
+
+  <!-- FASE 4 -->
+  <section id="fase4">
+    <h2>Fase 4: Finalização</h2>
+
+    <ul>
+      <li>Instalação do Guest Additions</li>
+      <li>Verificar as definições do sistema</li>
+      <li>Verificar especificações do Windows</li>
+    </ul>
+
+    <h3>Vídeo final</h3>
+    <video controls>
+      <source src="Videos/Fase 4.mp4" type="video/mp4">
+    </video>
+    <footer>
+      <div>
+        <small class="copyright">
+          Copyright&copy; 2025 - <span id="ano"></span> | Manual - Instalação Windows 11 Designed by
+          <a href="https://rebrand.ly/portefolio" target="_blank" style="text-decoration: underline">Francisco Reis</a>
+        </small>
+      </div>
+    </footer>
+    <script>
+      document.getElementById("ano").textContent = new Date().getFullYear();
+    </script>
+  </section>
+
+</body>
+
+</html>
